@@ -23,8 +23,8 @@
     "prettier:watch": "onchange 'src/**/*.{js,jsx}' -- prettier --write {{changed}}",
     "build:rollup": "npx rollup --config config/rollup.iife.config.js",
     "example": "npm run build:rollup && cp -R build/* example/iife && node example/iife/server.js",
-    "build-package:rollup": "npx rollup --config config/rollup.cjs.config.js",
     "prepare": "npm run build-package:rollup",
+    "build-package:rollup": "npx rollup --config config/rollup.cjs.config.js",
     "example-package": "cd example/cjs && npm install && npm run start"
   },
   "husky": {
