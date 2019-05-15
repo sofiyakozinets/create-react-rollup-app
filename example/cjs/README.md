@@ -1,7 +1,3 @@
-# Create React Rollup App
-
-Create React apps with Rollup build configuration.
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -23,7 +19,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder with Webpack.<br>
+Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
@@ -40,32 +36,6 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-### `npm run lint:check`, `npm run lint:check-config`, `npm run lint:watch`, `npm run prettier:watch`
-
-Run linting tools like ESLint and Prettier to discover problems with JavaScript code.
-
-### `npm run build:rollup`
-
-Builds the app for production to the `build` folder with Rollup.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-Stylesheets and JavaScript are bundled separately, the bundles are minified, and the images are copied to the `build` folder.<br>
-Your app is ready to be deployed!
-
-### `npm run example`
-
-Runs the example that uses the IIFE build.
-
-### `npm run build-package:rollup`
-
-Builds the app as a Node package to the `dist` folder.
-
-Your package is ready for installation in projects!
-
-### `npm run example-package`
-
-Runs the example that uses the CJS build.
 
 ## Learn More
 
